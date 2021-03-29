@@ -1,0 +1,102 @@
+.e3-code {
+  width: 600px;
+  display: flex;
+  background: rgba(0,0,36,1);
+  /* background: white; */
+  /* border: 2px solid #0aaff1; */
+}
+
+.half-width {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.full-width {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+
+.tab1 {
+  margin-left: 30px;
+}
+
+.tab2 {
+  margin-left: 60px;
+}
+
+.tab3 {
+  margin-left: 90px;
+}
+
+.tab4 {
+  margin-left: 120px;
+}
+
+.tab5 {
+  margin-left: 150px;
+}
+
+.element1 {
+  width: 300px;
+  height: 400px;
+  margin-left: 40px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.element2 {
+  position: absolute;
+  top: 0px;
+  width: 80px;
+  height: 80px;
+  background: red;
+  border-radius: 50%;
+}
+
+.element3 {
+  width: 100%;
+  height: calc(100% - 40px);
+  background: #0aaff1;
+  border-radius: 30px;
+}
+
+.e3-xml-color {
+  color: #eb4034;
+}
+
+.e3-xml-value-color {
+  color: #4934eb;
+}
+
+.e3-property-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.e3-c-prep-color {
+  color: gray;
+}
+
+.e3-c-class-color {
+  color: #0aaff1;
+}
+
+.e3-c-file-color {
+  color: #eb4034;
+}
+
+.e3-c-type-color {
+  color: #4934eb;
+}

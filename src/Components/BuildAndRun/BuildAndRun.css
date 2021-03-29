@@ -1,0 +1,64 @@
+.e3-desktop-device {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.e3-desktop-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 640px;
+  height: 360px;
+  /* border-radius: 20px; */
+  background: rgb(218, 218, 218);
+}
+
+.e3-android-display {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 500px;
+  border-radius: 20px;
+  background: rgb(218, 218, 218);
+}
+
+.e3-desktop-app-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 92%;
+  background: white;
+}
+
+.e3-android-app-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 88%;
+  background: white;
+}
+
+.e3-desktop-under {
+  width: 0; 
+  height: 0; 
+  margin-top: 10px;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  
+  border-bottom: 40px solid #0aaff1;
+}
+
+.e3-android-button {
+  width: 50px; 
+  height: 20px; 
+  margin-top: 10px;
+  border-radius: 10px;
+  background:  #0aaff1;
+}

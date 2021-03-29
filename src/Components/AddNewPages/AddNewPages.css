@@ -1,0 +1,34 @@
+.e3-devices-container {
+  display: flex;
+}
+
+.e3-app-login-page {
+
+}
+
+.e3-app-input, 
+.e3-app-input :focus,
+.e3-app-input ::before,
+.e3-app-input ::after
+{
+  border: none;
+  border-bottom: 1px solid #0aaff1;
+  outline: none;
+  margin: 10px;
+}
+
+.e3-app-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 35px;
+  margin-top: 10px;
+  background: #0aaff1;
+}
+
+.token {
+  color: black !important;
+}

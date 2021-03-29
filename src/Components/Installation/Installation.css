@@ -1,0 +1,14 @@
+.fa-icon {
+  margin: 20px;
+}
+
+.e3-os-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.e3-os {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

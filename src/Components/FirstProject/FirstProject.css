@@ -1,0 +1,39 @@
+.d-flex {
+  display: flex;
+  padding: 20px;
+}
+
+.fd-col {
+  flex-direction: column;
+}
+
+.ai-start {
+  align-items: start;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.color-main {
+  color: #0aaff1;
+}
+
+.e3-terminal {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  background: gainsboro;
+  font-weight: 700;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+  padding: 15px;
+  border: 1px solid gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: start;
+}

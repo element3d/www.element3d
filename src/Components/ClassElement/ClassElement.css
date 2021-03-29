@@ -1,0 +1,34 @@
+.e3-function-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-family: Titillium Web;
+  font-size: 20px;
+}
+
+.e3-function-title-container {
+  width: 100%;
+  
+  text-align: start;
+  padding: 5px;
+}
+
+.e3-function-type-container {
+  width: 20%;
+  text-align: end;
+  padding: 5px;
+}
+
+.e3-function-name-container {
+  padding: 5px;
+  width: 70%;
+  text-align: start;
+}
+
+.e3-color-basic-type {
+  color: royalblue;
+}
+
+.e3-color-class-type {
+  color: #0aaff1;
+}
